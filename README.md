@@ -1,22 +1,73 @@
-# Frontend Projects Workspace
+# V&M Websites - Freelance Portfolio
 
-This repository serves as a collection of frontend development projects, ranging from corporate landing pages to functional web applications. Each project is self-contained and demonstrates different aspects of modern web design and development.
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blue?style=for-the-badge)](https://vp1107.github.io/portfolio-website)
 
-## Project Directory
+A modern, professional portfolio website for **Vatsal & Mann**, showcasing affordable web development services for small businesses in India.
 
-| Project Name | Description | Key Technologies | Link |
-| :--- | :--- | :--- | :--- |
-| **Chef4U Catering** | Premium catering service landing page. | HTML, CSS, Responsive Design | [View Project](./chef4u-sample-website/) |
-| **Renav Messenger** | Landing page for a WhatsApp Business API solution. | HTML, CSS, Static Branding | [View Project](./renav-messenger-website-clone/) |
-| **Renav Website** | Official corporate website for Renav Technologies. | HTML, CSS, Corporate Design | [View Project](./renav-official-website-clone/) |
+![Preview](./assets/responsive_mockup.png)
 
-## Workspace Organization
+## 🌟 Features
 
-- Each project directory contains its own `README.md` with specific details.
-- Projects follow a consistent structure: `index.html`, `css/` (or `style.css`), and `assets/`.
-- All designs are focused on responsiveness and modern UI/UX aesthetics.
+- **Responsive Design** - Fully optimized for all devices (desktop, tablet, mobile)
+- **Modern Aesthetics** - Glassmorphism effects, smooth animations, and a dark theme
+- **Contact Form** - Integrated with Google Apps Script for form submissions
+- **SEO Optimized** - Schema markup, meta descriptions, and semantic HTML
+- **Fast Loading** - Clean, minimal codebase with no external dependencies
 
-## How to Explore
+## 📁 Project Structure
 
-1. Navigate to any project subdirectory.
-2. Open the `index.html` file in your preferred web browser.
+```
+portfolio-website/
+├── index.html              # Main HTML file
+├── css/
+│   └── style.css           # All styles
+├── js/
+│   └── main.js             # Interactive features (nav, FAQ, form, animations)
+├── assets/
+│   ├── responsive_mockup.png      # Hero section mockup
+│   ├── chef4u-screenshot.png      # Project screenshot
+│   ├── renav-official-screenshot.png
+│   └── renav-messenger-screenshot.png
+├── maintenance-policy.pdf  # Terms & Conditions
+└── README.md               # This file
+```
+
+## 🚀 Getting Started
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/vp1107/portfolio-website.git
+    ```
+2.  Open `index.html` in your browser.
+
+No build tools or dependencies required!
+
+## 📄 Sections
+
+| Section      | Description                                            |
+| :----------- | :----------------------------------------------------- |
+| **Hero**     | Catchy headline, value propositions, and call-to-action |
+| **About**    | Story of the developers and key statistics             |
+| **Process**  | 4-step workflow (Consultation → Design → Dev → Launch) |
+| **Services** | Pricing cards for Landing Page, Business Site, Redesign |
+| **Pricing**  | Feature comparison table                               |
+| **Projects** | Portfolio showcasing previous work with live demos      |
+| **Testimonials** | Client feedback                                    |
+| **FAQ**      | Accordion-style frequently asked questions             |
+| **Contact**  | Contact info and a functional inquiry form             |
+
+## 🛠️ Tech Stack
+
+- **HTML5** - Semantic structure
+- **CSS3** - Custom properties, Flexbox, Grid, animations
+- **JavaScript** - Vanilla JS for interactivity
+- **Google Apps Script** - Serverless form backend
+
+## 📧 Contact
+
+- **Email:** vm.creationteam@gmail.com
+- **WhatsApp:** +91 6353096737 | +91 7383281240
+
+---
+
+© 2026 Vatsal & Mann. Built with ❤️.
