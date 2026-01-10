@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V&M Creations - Logo Component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* --- COPY CSS FROM HERE --- */
+
+        :root {
+            --accent: #38bdf8;
+            /* Change this to match your website's color */
+            --text-primary: #ffffff;
+        }
+
+        .logo-essential {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            text-decoration: none;
+            line-height: 1;
+        }
+
+        .logo-essential .vm {
+            font-family: 'Outfit', sans-serif;
+            font-size: 26px;
+            /* Adjust size here */
+            font-weight: 700;
+            letter-spacing: 4px;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--accent);
+            padding-bottom: 2px;
+            margin-bottom: 3px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .logo-essential .creations {
+            font-family: 'Outfit', sans-serif;
+            font-size: 10px;
+            /* Adjust size here (approx 40% of main text) */
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            /* Adjust this to center visually */
+            color: var(--accent);
+            margin-top: 2px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .logo-essential:hover .vm {
+            border-bottom-color: #0ea5e9;
+            /* Hover color */
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+        }
+
+        .logo-essential:hover .creations {
+            letter-spacing: 9px;
+            color: var(--text-primary);
+        }
+
+        /* --- END CSS COPY --- */
+
+
+        /* Presentation Styles (Ignore these) */
+        body {
+            background: #0f172a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- --- COPY HTML FROM HERE --- -->
+
+    <a href="#" class="logo-essential">
+        <span class="vm">V&M</span>
+        <span class="creations">CREATIONS</span>
+    </a>
+
+    <!-- --- END HTML COPY --- -->
+
+</body>
+
+</html>
