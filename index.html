@@ -47,6 +47,14 @@
 
 <body>
 
+    <!-- Video Intro Overlay -->
+    <div class="video-intro-overlay" id="videoIntro">
+        <div class="intro-logo">V&M<span class="text-accent">Websites</span></div>
+    </div>
+
+    <!-- Floating Testimonials Background -->
+    <div class="floating-testimonials-bg" id="floatingTestimonials" aria-hidden="true"></div>
+
     <!-- Background Animation Canvas -->
     <canvas id="heroCanvas" class="bg-canvas"></canvas>
 
@@ -72,6 +80,14 @@
 
     <!-- Hero Section -->
     <header class="section hero">
+        <!-- Hero Word Sequence Animation -->
+        <div class="hero-word-sequence" id="heroWordSequence">
+            <span class="sequence-word" data-index="0">Idea</span>
+            <span class="sequence-word" data-index="1">Design</span>
+            <span class="sequence-word" data-index="2">Build</span>
+            <span class="sequence-word" data-index="3">Launch</span>
+        </div>
+
         <div class="container grid grid-2 hero-container">
             <div class="hero-content animate-reveal">
                 <h1 class="mb-2">Affordable Websites for <span class="text-accent">Small Businesses</span></h1>
@@ -79,9 +95,24 @@
                     local businesses grow without the high costs.</p>
 
                 <div class="hero-highlights mb-4">
-                    <div class="highlight-item">✅ Websites starting from <span class="text-accent">₹3,000</span></div>
-                    <div class="highlight-item">✅ Delivery in <span class="text-accent">3–7 days</span></div>
-                    <div class="highlight-item">✅ Modern, clean & effective design</div>
+                    <div class="highlight-item">
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Websites starting from <span class="text-accent">₹3,000</span>
+                    </div>
+                    <div class="highlight-item">
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Delivery in <span class="text-accent">3–7 days</span>
+                    </div>
+                    <div class="highlight-item">
+                        <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Modern, clean & effective design
+                    </div>
                 </div>
 
                 <div class="hero-btns">
@@ -90,8 +121,17 @@
                 </div>
 
                 <div class="availability-banner mt-4">
-                    <span class="small">📅 <strong class="text-accent">January Slots:</strong> 2 spots remaining for
-                        delivery by month-end</span>
+                    <span class="small">
+                        <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                        <strong class="text-accent">January Slots:</strong> 2 spots remaining for
+                        delivery by month-end
+                    </span>
                 </div>
             </div>
             <div class="hero-image animate-reveal">
@@ -168,25 +208,51 @@
             </div>
             <div class="grid grid-4 text-center">
                 <div class="glass-card process-card animate-reveal">
-                    <div class="process-icon mb-2">💬</div>
+                    <div class="process-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                        </svg>
+                    </div>
                     <h3 class="mb-1">1. Consultation</h3>
                     <p class="text-secondary small">We discuss your goals and requirements. <strong
                             class="text-accent">Same day response.</strong></p>
                 </div>
                 <div class="glass-card process-card animate-reveal">
-                    <div class="process-icon mb-2">🎨</div>
+                    <div class="process-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                            <path d="M2 2l7.586 7.586" />
+                            <circle cx="11" cy="11" r="2" />
+                        </svg>
+                    </div>
                     <h3 class="mb-1">2. Design</h3>
                     <p class="text-secondary small">We create a professional mockup. <strong class="text-accent">1-2
                             days.</strong></p>
                 </div>
                 <div class="glass-card process-card animate-reveal">
-                    <div class="process-icon mb-2">💻</div>
+                    <div class="process-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6" />
+                            <polyline points="8 6 2 12 8 18" />
+                            <line x1="12" y1="2" x2="12" y2="22" stroke-dasharray="2 2" opacity="0.5" />
+                        </svg>
+                    </div>
                     <h3 class="mb-1">3. Development</h3>
                     <p class="text-secondary small">Clean, fast code for best performance. <strong
                             class="text-accent">2-4 days.</strong></p>
                 </div>
                 <div class="glass-card process-card animate-reveal">
-                    <div class="process-icon mb-2">🚀</div>
+                    <div class="process-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+                            <path
+                                d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+                            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+                        </svg>
+                    </div>
                     <h3 class="mb-1">4. Launch</h3>
                     <p class="text-secondary small">Final review & deployment. <strong class="text-accent">Perfect on
                             all devices.</strong></p>
@@ -201,35 +267,82 @@
             <h2 class="section-title text-center mb-4">Our Services</h2>
             <div class="grid grid-3">
                 <div class="glass-card animate-reveal">
-                    <div class="service-icon mb-2">📄</div>
+                    <div class="service-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                            <polyline points="10 9 9 9 8 9" />
+                        </svg>
+                    </div>
                     <h3 class="mb-2">Static Business Website</h3>
                     <p class="mb-3 text-secondary">Perfect for shops, consultants, and local services.</p>
-                    <ul class="mb-3">
-                        <li>✔ 4–6 Responsive Pages</li>
-                        <li>✔ Basic SEO Set-up</li>
-                        <li>✔ Contact & WhatsApp Integration</li>
+                    <ul class="service-list mb-3">
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> 4–6 Responsive Pages</li>
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Basic SEO Set-up</li>
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Contact & WhatsApp Integration</li>
                     </ul>
                     <div class="price">Starting at <span class="text-accent">₹3,000</span></div>
                 </div>
                 <div class="glass-card animate-reveal">
-                    <div class="service-icon mb-2">🎯</div>
+                    <div class="service-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <circle cx="12" cy="12" r="6" />
+                            <circle cx="12" cy="12" r="2" />
+                        </svg>
+                    </div>
                     <h3 class="mb-2">Landing Page</h3>
                     <p class="mb-3 text-secondary">Single-page sites designed for high conversion.</p>
-                    <ul class="mb-3">
-                        <li>✔ Clear Call-to-Action</li>
-                        <li>✔ Fast Loading Speed</li>
-                        <li>✔ Lead Capture Ready</li>
+                    <ul class="service-list mb-3">
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Clear Call-to-Action</li>
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Fast Loading Speed</li>
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Lead Capture Ready</li>
                     </ul>
                     <div class="price">Starting at <span class="text-accent">₹2,000</span></div>
                 </div>
                 <div class="glass-card animate-reveal">
-                    <div class="service-icon mb-2">✨</div>
+                    <div class="service-icon mb-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z" />
+                            <path d="M5 19l1 3 1-3 3-1-3-1-1-3-1 3-3 1 3 1z" />
+                            <path d="M18 14l.5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5.5-1.5z" />
+                        </svg>
+                    </div>
                     <h3 class="mb-2">Website Redesign</h3>
                     <p class="mb-3 text-secondary">Modernize your old site for better results.</p>
-                    <ul class="mb-3">
-                        <li>✔ Improved Layout & UI</li>
-                        <li>✔ Mobile Optimization</li>
-                        <li>✔ Better Performance</li>
+                    <ul class="service-list mb-3">
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Improved Layout & UI</li>
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Mobile Optimization</li>
+                        <li><svg class="list-check" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20 6L9 17l-5-5" />
+                            </svg> Better Performance</li>
                     </ul>
                     <div class="price">Starting at <span class="text-accent">₹4,000</span></div>
                 </div>
@@ -366,19 +479,19 @@
         <div class="container">
             <h2 class="section-title text-center mb-4">Client Feedback</h2>
             <div class="grid grid-3">
-                <div class="glass-card animate-reveal">
+                <div class="glass-card testimonial-card animate-reveal">
                     <p class="mb-3 italic">"Vatsal and Mann built my landing page in just 3 days. The design is clean
                         and I've already started getting inquiries!"</p>
                     <p class="text-accent"><strong>- Rahul S.</strong></p>
                     <p class="small text-secondary">Local Business Owner • December 2024</p>
                 </div>
-                <div class="glass-card animate-reveal">
+                <div class="glass-card testimonial-card animate-reveal">
                     <p class="mb-3 italic">"Very professional approach. They understood my requirements perfectly and
                         delivered a fast-loading site."</p>
                     <p class="text-accent"><strong>- Sneha M.</strong></p>
                     <p class="small text-secondary">Freelance Consultant • November 2024</p>
                 </div>
-                <div class="glass-card animate-reveal">
+                <div class="glass-card testimonial-card animate-reveal">
                     <p class="mb-3 italic">"High quality work at a fraction of the cost I was quoted elsewhere. Highly
                         recommended for small brands."</p>
                     <p class="text-accent"><strong>- Amit P.</strong></p>
