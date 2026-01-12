@@ -489,6 +489,14 @@ ul {
         grid-template-columns: 1fr;
     }
 
+    .container {
+        padding: 0 10px;
+    }
+
+    .section {
+        padding: 60px 10px;
+    }
+
     .nav-links {
         position: fixed;
         top: 80px;
