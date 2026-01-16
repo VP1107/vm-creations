@@ -1642,6 +1642,77 @@ select {
 }
 
 
+/* Plan Cards */
+.plan-grid {
+    gap: 30px;
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.plan-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+/* Recommended Plan Highlight */
+.recommended-plan {
+    background: linear-gradient(135deg, var(--accent), #e0f2fe);
+    color: var(--bg-dark);
+    border: none;
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(56, 189, 248, 0.25);
+    z-index: 1;
+}
+
+.recommended-plan h3,
+.recommended-plan .text-accent,
+.recommended-plan .small {
+    color: var(--bg-dark);
+}
+
+.recommended-plan .service-list li {
+    color: #334155;
+    /* Slate-700 for readability on light bg */
+}
+
+.recommended-plan .service-list .list-check {
+    color: #0f172a;
+    /* Dark for contrast */
+}
+
+.recommended-plan .plan-footer {
+    border-color: rgba(15, 23, 42, 0.1);
+}
+
+.recommended-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: var(--bg-dark);
+    color: var(--accent);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effects for transparency cards */
+.plan-card:not(.recommended-plan):hover {
+    border-color: rgba(56, 189, 248, 0.3);
+    transform: translateY(-5px);
+}
+
+
 @media (prefers-reduced-motion: reduce) {
 
     *,
